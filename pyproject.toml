@@ -1,0 +1,11 @@
+[project]
+name = "sbur"
+version = "0.1.0"
+description = "Subtitles renamer using LLM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.2.4",
+    "langchain-core>=1.2.7",
+    "nexaai>=1.0.42",
+]
