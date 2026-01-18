@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = ["nexaai>=1.0.42"]
 
+[project.scripts]
+sbur = "main:main"
+
 [dependency-groups]
 dev = [
     "pytest>=9.0.2",
